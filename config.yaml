@@ -1,1 +1,22 @@
+countries:
+  - code: U2
+    name: Euro area
+  - code: DE
+    name: Germany
+  - code: FR
+    name: France
+  - code: IT
+    name: Italy
+  - code: ES
+    name: Spain
+  - code: NL
+    name: Netherlands
+
+indicators:
+  hcip_inflation:
+    label: HCIP inflation, all items (annual % change)
+    dataset: HCIP
+    key: "M.{country}.N.000000.4D0.ANR"
+    frequency: monthly
+    unit: "% y/y"
 
